@@ -1,0 +1,123 @@
+body {
+  color: white;
+}
+
+input {
+  color: black;
+}
+
+.name {
+  padding-top: 30px;
+  padding-left: 30px;
+  color: white;
+  text-align: left;
+}
+
+#monstylist {
+  font-size: 36px;
+  font-family: "Osaka";
+}
+
+.maintagline {
+  font-size: 26px;
+  padding-left: 30px;
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+  font-family: "Helvetica Neue";
+}
+
+.subtagline {
+  font-size: 18px;
+  padding-left: 30px;
+  margin-top: 20px;
+  text-align: left;
+  font-family: "Helvetica Neue";
+}
+
+.info {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.fillin { 
+  height: 50px;
+}
+
+.medium {
+  width: 150px;
+}
+
+.big {
+  width: 300px;
+}
+
+.mainbutton {
+  margin: 0 auto;
+  margin-top: 22px;
+  font-size: 25px;
+  padding: 15px 50px 15px 50px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  background-color: #55D8EF;
+}
+
+.mainbutton:hover {
+  color: white;
+  background-color: #88DBE9;
+}
+
+
+
+.quote {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+}
+
+.contact {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.landing-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-position:top center;
+  left: 0;
+  background-image: url("/cool.png");
+  background-color: #1B3C67;
+  background-repeat: no-repeat;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom {
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .mainbutton {
+    width: 90%;
+  }
+
+}
+
+
+
+
+
