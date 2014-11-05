@@ -1,16 +1,17 @@
-body {
-  color: white;
+html, body {
+  color: black;
+  background-color: white
 }
 
 input {
   color: black;
 }
 
-.name {
+.monstylist {
+  width: 202px;
+  height: 57px;
   padding-top: 30px;
   padding-left: 30px;
-  color: white;
-  text-align: left;
 }
 
 #monstylist {
@@ -22,15 +23,7 @@ input {
   font-size: 26px;
   padding-left: 30px;
   margin-top: 20px;
-  color: white;
-  text-align: left;
-  font-family: "Helvetica Neue";
-}
-
-.subtagline {
-  font-size: 18px;
-  padding-left: 30px;
-  margin-top: 20px;
+  color: #FF6622;
   text-align: left;
   font-family: "Helvetica Neue";
 }
@@ -53,9 +46,8 @@ input {
 }
 
 .mainbutton {
-  margin: 0 auto;
-  margin-top: 22px;
   font-size: 25px;
+  height: 50px;
   padding: 15px 50px 15px 50px;
   border: none;
   outline: none;
@@ -63,7 +55,7 @@ input {
   color: white;
   font-family: "Helvetica Neue";
   text-align: center;
-  background-color: #55D8EF;
+  background-color: #FF6622;
 }
 
 .mainbutton:hover {
@@ -73,18 +65,17 @@ input {
 
 
 
-.quote {
-  font-size: 16px;
-  text-align: center;
-  font-family: "Helvetica Neue";
+
+
+.form-container {
+  background-image: url("/cool_m.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 20px;
+  height: 735px;
 }
 
-.contact {
-  font-size: 14px;
-  text-decoration: underline;
-}
-
-.landing-container {
+/*.landing-container {
   position: absolute;
   top: 0;
   right: 0;
@@ -94,7 +85,7 @@ input {
   background-image: url("/cool.png");
   background-color: #1B3C67;
   background-repeat: no-repeat;
-}
+}*/
 
 .absolute {
   position: absolute;
