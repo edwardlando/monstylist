@@ -7,6 +7,59 @@ input {
   color: black;
 }
 
+input::-webkit-input-placeholder {
+    color:    black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+}
+input:-moz-placeholder {
+    color:   black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+input:-ms-input-placeholder {
+    color:   black;
+    font-weight: bold;
+        text-align: center;
+        font-size: 17px;
+
+}
+input:focus::-webkit-input-placeholder {
+    color:    black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+input:focus:-moz-placeholder {
+    color:  black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+input:focus:-ms-input-placeholder {
+    color:   black;
+        text-align: center;
+
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.centertext{
+  text-align: center;
+}
+
+
+.list-container{
+  width: 66%;
+  margin:0 auto;
+}
+
+
 .monstylist {
   width: 202px;
   height: 57px;
@@ -28,13 +81,17 @@ input {
   font-family: "Helvetica Neue";
 }
 
-.info {
-  margin-top: 30px;
-  padding-left: 30px;
+.width20{
+  width: 19%;
 }
 
-.fillin { 
-  height: 50px;
+.width40{
+  width: 39%;
+}
+
+
+.fillin {
+  height:40px;
 }
 
 .medium {
@@ -46,9 +103,9 @@ input {
 }
 
 .mainbutton {
-  font-size: 25px;
-  height: 50px;
-  padding: 15px 50px 15px 50px;
+  font-size: 20px;
+  /*height: 50px;*/
+  /*padding: 15px 50px 15px 50px;*/
   border: none;
   outline: none;
   border-radius: 3px;
@@ -70,9 +127,12 @@ input {
 .form-container {
   background-image: url("/cool_m.png");
   background-repeat: no-repeat;
-  width: 100%;
+  background-position: top center;
+  width: auto;
   padding-top: 20px;
-  height: 735px;
+  height: 520px;
+  position: relative;
+
 }
 
 /*.landing-container {
@@ -100,6 +160,57 @@ input {
 .text-center{
   text-align: center;
 }
+
+
+ol.simple-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+
+    counter-reset: li-counter;
+}
+ol.simple-list > li{
+  font-size: 17px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    /*border-left: 2px solid #CCCCCC;*/
+}
+ol.simple-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.8em;
+
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #FF6622;
+
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.bold{
+  font-weight: bold;
+}
+.orange{
+  color: #FF6622;;
+}
+
+
+
+
+
 
 @media (max-width: 600px) {
   .mainbutton {
