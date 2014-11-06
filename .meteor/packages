@@ -7,3 +7,5 @@ meteor-platform
 mizzao:bootstrap-3
 underscore
 jquery
+coffeescript
+

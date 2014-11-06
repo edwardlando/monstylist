@@ -5,7 +5,13 @@ html, body {
 
 input {
   color: black;
+  border:0;
+  padding: 10px;
+font-size: 17px;
 }
+
+
+
 
 input::-webkit-input-placeholder {
     color:    black;
@@ -49,9 +55,13 @@ input:focus:-ms-input-placeholder {
     font-size: 17px;
 }
 
+.picmon{
+}
+
 .centertext{
   text-align: center;
 }
+
 
 
 .list-container{
@@ -61,10 +71,11 @@ input:focus:-ms-input-placeholder {
 
 
 .monstylist {
-  width: 202px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
   height: 57px;
-  padding-top: 30px;
-  padding-left: 30px;
 }
 
 #monstylist {
@@ -73,12 +84,23 @@ input:focus:-ms-input-placeholder {
 }
 
 .maintagline {
-  font-size: 26px;
+  font-size: 34px;
   padding-left: 30px;
-  margin-top: 20px;
+  margin-top: -10px;
   color: #FF6622;
-  text-align: left;
   font-family: "Helvetica Neue";
+}
+
+#thanks{
+  position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+color: white;
+background-color: rgba(0,0,0,.6);
+font-size: 30px;
+height: 70px;
+padding-top: 11px;
 }
 
 .width20{
@@ -104,8 +126,8 @@ input:focus:-ms-input-placeholder {
 
 .mainbutton {
   font-size: 20px;
-  /*height: 50px;*/
-  /*padding: 15px 50px 15px 50px;*/
+  height: 42px;
+margin-top: -4px;
   border: none;
   outline: none;
   border-radius: 3px;
@@ -178,6 +200,7 @@ ol.simple-list > li{
     margin-bottom: 20px;
     padding-left: 0.5em;
     min-height: 3em;
+    padding-top: 4px;
     /*border-left: 2px solid #CCCCCC;*/
 }
 ol.simple-list > li:before {
@@ -208,13 +231,23 @@ ol.simple-list > li:before {
 }
 
 
+.form-wrapper{
+  position:absolute;bottom:0;width: 100%;padding: 10px;background-color: rgba(0,0,0,.6);text-align: center;height: 75px;padding-top: 17px;
+}
 
 
+.DIN{
+  font-family: DINCondensedC;
+}
 
 
 @media (max-width: 600px) {
   .mainbutton {
     width: 90%;
+  }
+
+  .form-wrapper{
+    height: 170px
   }
 
 }
