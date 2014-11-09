@@ -1,3 +1,9 @@
+@font-face {
+    font-family: DINp;
+    src: url('DIN.ttf');
+}
+
+
 html, body {
   color: black;
   background-color: white
@@ -55,6 +61,15 @@ input:focus:-ms-input-placeholder {
     font-size: 17px;
 }
 
+
+.rouge{
+  color: #DC490D ;
+}
+
+.gris{
+    color: #818181 ;
+}
+
 .picmon{
 }
 
@@ -76,6 +91,10 @@ input:focus:-ms-input-placeholder {
   text-align: center;
   margin-bottom: 0;
   height: 57px;
+
+  font-family: helvetica neue;
+font-weight: 600;
+letter-spacing: 2.35px;
 }
 
 #monstylist {
@@ -87,7 +106,6 @@ input:focus:-ms-input-placeholder {
   font-size: 34px;
   padding-left: 30px;
   margin-top: -10px;
-  color: #FF6622;
   font-family: "Helvetica Neue";
 }
 
@@ -134,7 +152,7 @@ margin-top: -4px;
   color: white;
   font-family: "Helvetica Neue";
   text-align: center;
-  background-color: #FF6622;
+  background-color: #DC490D;
 }
 
 .mainbutton:hover {
@@ -147,7 +165,14 @@ margin-top: -4px;
 
 
 .form-container {
-  background-image: url("/cool_m.png");
+  /*background-image: url("/cool_m.png");*/
+background-image: url("mecstyle2.png");
+/*background-image: url("brioni.png");*/
+
+
+background-size: 100%;
+
+
   background-repeat: no-repeat;
   background-position: top center;
   width: auto;
@@ -213,7 +238,7 @@ ol.simple-list > li:before {
     line-height: 1;
     font-weight: bold;
     text-align: right;
-    color: #FF6622;
+    color: #DC490D ;
 
     content: counter(li-counter);
     counter-increment: li-counter;
@@ -237,7 +262,7 @@ ol.simple-list > li:before {
 
 
 .DIN{
-  font-family: DINCondensedC;
+  font-family: DINp;
 }
 
 
@@ -247,8 +272,30 @@ ol.simple-list > li:before {
   }
 
   .form-wrapper{
-    height: 170px
+    height: 206px
   }
+
+  .form-container{
+    height: 330px;
+  }
+
+  .medium{
+    width: 300px;
+  }
+
+  input{
+    margin: 2px 0;
+  }
+
+  .maintagline {
+font-size: 20px;
+padding: 0 6px;
+}
+
+ .mainbutton{
+  margin-top: 8px;
+ }
+
 
 }
 

@@ -1,0 +1,155 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "736b3a848e6305019f04c7655fd5b3e06d54c590.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/736b3a848e6305019f04c7655fd5b3e06d54c590.js",
+      "size": 364934,
+      "hash": "736b3a848e6305019f04c7655fd5b3e06d54c590"
+    },
+    {
+      "path": "6fd6ebbc4bf5f977abcdf2883d24a47bc41b6fe5.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/6fd6ebbc4bf5f977abcdf2883d24a47bc41b6fe5.css?meteor_css_resource=true",
+      "size": 118131,
+      "hash": "6fd6ebbc4bf5f977abcdf2883d24a47bc41b6fe5"
+    },
+    {
+      "path": "packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",
+      "size": 20335,
+      "hash": "f3a9a3b609133c3d21d6b42abbf7f43bd111df72"
+    },
+    {
+      "path": "packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf",
+      "size": 41280,
+      "hash": "aafafdc09404c4aa4447d7e898a2183def9cc1b1"
+    },
+    {
+      "path": "packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+      "size": 62926,
+      "hash": "66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa"
+    },
+    {
+      "path": "packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff",
+      "size": 23320,
+      "hash": "22037a3455914e5662fa51a596677bdb329e2c5c"
+    },
+    {
+      "path": "app/DIN.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/DIN.ttf",
+      "size": 81571,
+      "hash": "0a9e62b72c10867724e63c4bf91ad1ef85f25fec"
+    },
+    {
+      "path": "app/DINA.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/DINA.ttf",
+      "size": 147024,
+      "hash": "acd25e4f3d4660c274ce61a654b4c95dff798431"
+    },
+    {
+      "path": "app/brioni.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/brioni.png",
+      "size": 3114044,
+      "hash": "905e1baf7b87f37ed6d0f5efc9b3424615b60972"
+    },
+    {
+      "path": "app/cool_m.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/cool_m.png",
+      "size": 1594307,
+      "hash": "70e44c23e259f197f1d22ddecade6f77f32369bf"
+    },
+    {
+      "path": "app/favicon.ico",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/favicon.ico",
+      "size": 1150,
+      "hash": "6d16e2f9923e93685bb23d2dd6f429553740a68e"
+    },
+    {
+      "path": "app/mecstyle2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/mecstyle2.png",
+      "size": 3950088,
+      "hash": "c88bbc411c3b7ef02512b83498018c95e38456c4"
+    },
+    {
+      "path": "app/monstylist.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/monstylist.png",
+      "size": 6232,
+      "hash": "9004c0a21fb697f5768040096aea170df09104ba"
+    },
+    {
+      "path": "app/style.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/style.png",
+      "size": 2719465,
+      "hash": "ae082a49ae9d72c0408b6b4cf15b1acfe313f8a7"
+    },
+    {
+      "path": "app/super.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/super.png",
+      "size": 4556,
+      "hash": "95e878bd61964944a0e9ee835c5d6d1ffec0f0c3"
+    },
+    {
+      "path": "app/supercool.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/supercool.png",
+      "size": 5180,
+      "hash": "2d0da1e10ba4fa9326f8e84214cc3939728c6f7a"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "cb627ef8a6eaad827fc6904a2e1e53302438e5d0"
+    }
+  ]
+}
